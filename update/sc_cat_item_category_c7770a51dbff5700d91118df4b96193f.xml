@@ -5,17 +5,17 @@
         <sc_category display_value="Supplier">443e117ddb8fd300d91118df4b96194c</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>ttaylor</sys_created_by>
-        <sys_created_on>2018-07-02 19:24:38</sys_created_on>
+        <sys_created_on>2018-08-07 15:24:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>1525a5f1dbcfd300d91118df4b961980</sys_id>
+        <sys_id>c7770a51dbff5700d91118df4b96193f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Supplier.Supplier</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
-        <sys_update_name>sc_cat_item_category_1525a5f1dbcfd300d91118df4b961980</sys_update_name>
+        <sys_update_name>sc_cat_item_category_c7770a51dbff5700d91118df4b96193f</sys_update_name>
         <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-07-02 19:24:38</sys_updated_on>
+        <sys_updated_on>2018-08-07 15:24:48</sys_updated_on>
     </sc_cat_item_category>
 </record_update>

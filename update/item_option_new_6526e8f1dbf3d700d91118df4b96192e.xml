@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item/>
+        <cat_item display_value="My Invoice has a PO number">6022e9abdb17d340d91118df4b9619c1</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -22,7 +22,7 @@
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text>Please add additional Business Area to this field</help_text>
+        <help_text/>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -37,39 +37,39 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>additional_business_area</name>
-        <order>600</order>
+        <name>supplier</name>
+        <order>500</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Additional Business Area</question_text>
+        <question_text>Supplier</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table/>
+        <record_producer_table>x_tebc2_global_ind_global_indirect_procurement</record_producer_table>
         <reference/>
         <reference_qual/>
         <reference_qual_condition/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>true</show_help>
+        <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>mleighton</sys_created_by>
-        <sys_created_on>2018-07-26 17:07:12</sys_created_on>
+        <sys_created_on>2018-08-08 21:37:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>028b6c65dbe71b40d91118df4b96192c</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>Additional Business Area</sys_name>
+        <sys_id>6526e8f1dbf3d700d91118df4b96192e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Supplier</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
-        <sys_update_name>item_option_new_028b6c65dbe71b40d91118df4b96192c</sys_update_name>
+        <sys_update_name>item_option_new_6526e8f1dbf3d700d91118df4b96192e</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-08 21:31:04</sys_updated_on>
+        <sys_updated_on>2018-08-08 21:37:17</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -77,7 +77,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <variable_name/>
-        <variable_set display_value="Procurement">bb5a24f6dbc79700d91118df4b96190b</variable_set>
+        <variable_set/>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
@@ -86,22 +86,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=028b6c65dbe71b40d91118df4b96192c"/>
-    <fx_price action="delete_multiple" query="id=028b6c65dbe71b40d91118df4b96192c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6526e8f1dbf3d700d91118df4b96192e"/>
+    <fx_price action="delete_multiple" query="id=6526e8f1dbf3d700d91118df4b96192e"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>028b6c65dbe71b40d91118df4b96192c</id>
+        <id>6526e8f1dbf3d700d91118df4b96192e</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>mleighton</sys_created_by>
-        <sys_created_on>2018-07-26 17:07:12</sys_created_on>
-        <sys_id>9adb24a5dbe71b40d91118df4b96191d</sys_id>
+        <sys_created_on>2018-08-08 21:37:04</sys_created_on>
+        <sys_id>75462cf1dbf3d700d91118df4b9619fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-26 17:07:12</sys_updated_on>
+        <sys_updated_on>2018-08-08 21:37:04</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -109,16 +109,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>028b6c65dbe71b40d91118df4b96192c</id>
+        <id>6526e8f1dbf3d700d91118df4b96192e</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>mleighton</sys_created_by>
-        <sys_created_on>2018-07-26 17:07:12</sys_created_on>
-        <sys_id>52db24a5dbe71b40d91118df4b96191d</sys_id>
+        <sys_created_on>2018-08-08 21:37:04</sys_created_on>
+        <sys_id>b5462cf1dbf3d700d91118df4b9619fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-26 17:07:12</sys_updated_on>
+        <sys_updated_on>2018-08-08 21:37:04</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

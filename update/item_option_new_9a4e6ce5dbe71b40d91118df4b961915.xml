@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>additional_cost_center</name>
-        <order>200</order>
+        <order>400</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Additional Cost Center</question_text>
@@ -61,7 +61,7 @@
         <sys_created_on>2018-07-26 17:18:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9a4e6ce5dbe71b40d91118df4b961915</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Additional Cost Center</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>item_option_new_9a4e6ce5dbe71b40d91118df4b961915</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-31 16:28:41</sys_updated_on>
+        <sys_updated_on>2018-08-08 21:30:55</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

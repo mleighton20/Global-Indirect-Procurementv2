@@ -4,8 +4,7 @@
         <action_insert>true</action_insert>
         <action_update>false</action_update>
         <active>true</active>
-        <advanced_condition><![CDATA[setFrom(current.u_requested_for.email);
-addAddress("cc",current.u_requested_for.email,current.u_requested_for);]]></advanced_condition>
+        <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_tebc2_global_ind_global_indirect_procurement</collection>
@@ -42,7 +41,7 @@ addAddress("cc",current.u_requested_for.email,current.u_requested_for);]]></adva
         <message_html><![CDATA[<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Hi AP,</span></p>
 <p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">This is a system generated email being sent on behalf of ${u_requested_for}. Can you please assist with the request below?</span></p>
 <p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">${mail_script:gip_variable}</span></p>
-<p>&nbsp;</p>]]></message_html>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${mail_script:requested_for_cc_reply_to}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>GIP - Email to AP</name>
@@ -64,7 +63,7 @@ addAddress("cc",current.u_requested_for.email,current.u_requested_for);]]></adva
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>54438e63db97d340d91118df4b9619d5</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>GIP - Email to AP</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
@@ -73,7 +72,7 @@ addAddress("cc",current.u_requested_for.email,current.u_requested_for);]]></adva
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sysevent_email_action_54438e63db97d340d91118df4b9619d5</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-31 20:39:02</sys_updated_on>
+        <sys_updated_on>2018-08-09 14:41:07</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

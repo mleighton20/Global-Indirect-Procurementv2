@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>300</order>
-        <question display_value="Additional Department/Business Unit">a66115a9db6b1b40d91118df4b9619da</question>
+        <question display_value="Additional Company Code">a66115a9db6b1b40d91118df4b9619da</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>ttaylor</sys_created_by>

@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="7c993172dba31f40d91118df4b96193d">b52ab972dba31f40d91118df4b961935</list_id>
+            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="321bf61fdb6b1300d91118df4b9619da">b52ab972dba31f40d91118df4b961935</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="7c993172dba31f40d91118df4b96193d">b52ab972dba31f40d91118df4b961935</list_id>
+            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="321bf61fdb6b1300d91118df4b9619da">b52ab972dba31f40d91118df4b961935</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_item</element>
-            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="7c993172dba31f40d91118df4b96193d">b52ab972dba31f40d91118df4b961935</list_id>
+            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="321bf61fdb6b1300d91118df4b9619da">b52ab972dba31f40d91118df4b961935</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +49,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="7c993172dba31f40d91118df4b96193d">b52ab972dba31f40d91118df4b961935</list_id>
+            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="321bf61fdb6b1300d91118df4b9619da">b52ab972dba31f40d91118df4b961935</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -64,7 +64,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_requested_for</element>
-            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="7c993172dba31f40d91118df4b96193d">b52ab972dba31f40d91118df4b961935</list_id>
+            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="321bf61fdb6b1300d91118df4b9619da">b52ab972dba31f40d91118df4b961935</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -79,7 +79,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_date</element>
-            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="7c993172dba31f40d91118df4b96193d">b52ab972dba31f40d91118df4b961935</list_id>
+            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="321bf61fdb6b1300d91118df4b9619da">b52ab972dba31f40d91118df4b961935</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -94,7 +94,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>opened_at</element>
-            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="7c993172dba31f40d91118df4b96193d">b52ab972dba31f40d91118df4b961935</list_id>
+            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="321bf61fdb6b1300d91118df4b9619da">b52ab972dba31f40d91118df4b961935</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -109,7 +109,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="7c993172dba31f40d91118df4b96193d">b52ab972dba31f40d91118df4b961935</list_id>
+            <list_id display_value="x_tebc2_global_ind_global_indirect_procurement" element="NULL" name="x_tebc2_global_ind_global_indirect_procurement" parent="NULL" relationship="NULL" sys_domain="global" view="321bf61fdb6b1300d91118df4b9619da">b52ab972dba31f40d91118df4b961935</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -147,7 +147,7 @@
             <sys_updated_by>mleighton</sys_updated_by>
             <sys_updated_on>2018-07-30 20:01:44</sys_updated_on>
             <sys_user/>
-            <view display_value="Rptf099f532dba31f40d91118df4b9619ec" name="RPTf099f532dba31f40d91118df4b9619ec">7c993172dba31f40d91118df4b96193d</view>
+            <view display_value="Rptf099f532dba31f40d91118df4b9619ec" name="RPTf099f532dba31f40d91118df4b9619ec">321bf61fdb6b1300d91118df4b9619da</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
