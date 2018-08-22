@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_catalog_view_mtom">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
     <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
         <default>false</default>
         <sc_catalog display_value="Global Indirect Procurement">746a1df5db4fd300d7f6138b4b9619ce</sc_catalog>

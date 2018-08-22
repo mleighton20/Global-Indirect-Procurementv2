@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysrule_assignment">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment">
     <sysrule_assignment action="INSERT_OR_UPDATE">
         <active>true</active>
         <condition table="x_tebc2_global_ind_global_indirect_procurement">sys_class_name=x_tebc2_global_ind_global_indirect_procurement^EQ<item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_tebc2_global_ind_global_indirect_procurement"/>

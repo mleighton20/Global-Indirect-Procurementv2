@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_producer">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <can_cancel>false</can_cancel>
+        <can_cancel>true</can_cancel>
         <category display_value="Corporate Cards/Concur">6acc157ddb8fd300d91118df4b9619ad</category>
         <cost>0</cost>
         <custom_cart/>
@@ -36,6 +35,7 @@
         <order>0</order>
         <ordered_item_link/>
         <picture/>
+        <post_insert_script/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=e5736571dbcfd300d91118df4b9619ad&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
@@ -54,7 +54,7 @@
         <sys_created_on>2018-07-02 19:18:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e5736571dbcfd300d91118df4b9619ad</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Need additional card help?</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sc_cat_item_producer_e5736571dbcfd300d91118df4b9619ad</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-31 16:51:07</sys_updated_on>
+        <sys_updated_on>2018-08-13 19:46:47</sys_updated_on>
         <table_name>x_tebc2_global_ind_global_indirect_procurement</table_name>
         <template/>
         <type>item</type>
@@ -122,6 +122,7 @@
         <image_width>50</image_width>
         <size_bytes>2291</size_bytes>
         <size_compressed>2137</size_compressed>
+        <state/>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-30 15:48:15</sys_created_on>
         <sys_id>a420c1bedbafdb40d91118df4b96198d</sys_id>
@@ -159,6 +160,7 @@
         <image_width>150</image_width>
         <size_bytes>8359</size_bytes>
         <size_compressed>8182</size_compressed>
+        <state/>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-30 15:48:34</sys_created_on>
         <sys_id>11304dbedbafdb40d91118df4b9619bd</sys_id>

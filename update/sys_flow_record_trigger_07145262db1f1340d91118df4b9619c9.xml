@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_flow_record_trigger">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_record_trigger">
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>false</active>
         <condition table="question_answer">question=9f04c2c2dbcb1700d91118df4b961967^value=yes<item endquery="false" field="question" goto="false" newquery="false" operator="=" or="false" value="9f04c2c2dbcb1700d91118df4b961967"/>

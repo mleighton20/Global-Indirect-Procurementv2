@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>false</action_update>
@@ -40,8 +39,9 @@
         <message/>
         <message_html><![CDATA[<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Hi AP,</span></p>
 <p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">This is a system generated email being sent on behalf of ${u_requested_for}. Can you please assist with the request below?</span></p>
-<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">${mail_script:gip_variable}</span></p>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${mail_script:requested_for_cc_reply_to}</span></p>]]></message_html>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">${mail_script:rp_variable}</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${mail_script:requested_for_cc_reply_to}</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Thank you!</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>GIP - Email to AP</name>
@@ -63,7 +63,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>54438e63db97d340d91118df4b9619d5</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>GIP - Email to AP</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
@@ -72,7 +72,7 @@
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sysevent_email_action_54438e63db97d340d91118df4b9619d5</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-09 14:41:07</sys_updated_on>
+        <sys_updated_on>2018-08-13 18:15:11</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

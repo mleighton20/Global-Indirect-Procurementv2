@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_catalog">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Request for Information/Quote/Proposal">514421f1dbcfd300d91118df4b961916</sc_cat_item>
         <sc_catalog display_value="Global Indirect Procurement">746a1df5db4fd300d7f6138b4b9619ce</sc_catalog>

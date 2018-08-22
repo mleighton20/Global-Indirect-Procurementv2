@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_content">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_content">
     <sc_cat_item_content action="INSERT_OR_UPDATE">
         <active>true</active>
         <availability>on_desktop</availability>
@@ -122,6 +121,7 @@
         <image_width>50</image_width>
         <size_bytes>4262</size_bytes>
         <size_compressed>4283</size_compressed>
+        <state/>
         <sys_created_by>mleighton</sys_created_by>
         <sys_created_on>2018-07-17 20:04:10</sys_created_on>
         <sys_id>7a0eb26edb5f1340d91118df4b961982</sys_id>
@@ -159,6 +159,7 @@
         <image_width>125</image_width>
         <size_bytes>21296</size_bytes>
         <size_compressed>21317</size_compressed>
+        <state/>
         <sys_created_by>mleighton</sys_created_by>
         <sys_created_on>2018-07-25 16:41:26</sys_created_on>
         <sys_id>0f5cdb49db2bd740d91118df4b961981</sys_id>

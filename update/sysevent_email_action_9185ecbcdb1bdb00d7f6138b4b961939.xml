@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>true</action_update>
         <active>true</active>
-        <advanced_condition><![CDATA[setFrom('Terumo BCT GIP Support <snowprod@terumobct.com>');]]></advanced_condition>
+        <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Knowledge" name="Knowledge">be9d02137f232200ee2e108c3ffa9143</category>
         <collection>kb_knowledge</collection>
@@ -31,7 +30,7 @@
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
-        <from/>
+        <from>Terumo BCT GIP Support &lt;snowprod@terumobct.com&gt;</from>
         <generation_type>engine</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
@@ -62,7 +61,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9185ecbcdb1bdb00d7f6138b4b961939</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>GIP - Knowledge Article Published (BCT)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
@@ -71,7 +70,7 @@
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sysevent_email_action_9185ecbcdb1bdb00d7f6138b4b961939</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-01 17:15:10</sys_updated_on>
+        <sys_updated_on>2018-08-13 18:39:40</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

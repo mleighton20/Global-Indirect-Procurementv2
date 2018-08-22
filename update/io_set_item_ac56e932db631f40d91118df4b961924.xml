@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="io_set_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>100</order>
         <sc_cat_item display_value="Contracts/Agreements/Statement Of Work">d3f36db1dbcfd300d91118df4b9619cc</sc_cat_item>
@@ -17,6 +16,6 @@
         <sys_update_name>io_set_item_ac56e932db631f40d91118df4b961924</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
         <sys_updated_on>2018-07-30 18:35:05</sys_updated_on>
-        <variable_set display_value="Header">3581617edb231f40d91118df4b961931</variable_set>
+        <variable_set display_value="GIP Header">3581617edb231f40d91118df4b961931</variable_set>
     </io_set_item>
 </record_update>

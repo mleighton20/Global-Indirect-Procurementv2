@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="My Invoice does not have a PO number">29920263db97d340d91118df4b9619fd</sc_cat_item>
         <sc_category display_value="Assistance with an Invoice">538ed97ddb8fd300d91118df4b9619f4</sc_category>

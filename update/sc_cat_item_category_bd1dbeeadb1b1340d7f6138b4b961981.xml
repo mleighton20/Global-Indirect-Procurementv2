@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="SAP application help">791dbeeadb1b1340d7f6138b4b96197a</sc_cat_item>
         <sc_category display_value="SAP purchasing assistance">1f6e91bddb8fd300d91118df4b9619b9</sc_category>

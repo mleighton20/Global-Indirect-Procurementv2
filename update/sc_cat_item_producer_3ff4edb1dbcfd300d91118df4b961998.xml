@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_producer">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <can_cancel>false</can_cancel>
+        <can_cancel>true</can_cancel>
         <category display_value="Supplier">443e117ddb8fd300d91118df4b96194c</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>Please attach W9 with this request</p>]]></description>
+        <description/>
         <entitlement_script/>
         <group/>
         <hide_sp>false</hide_sp>
@@ -36,6 +35,7 @@
         <order>0</order>
         <ordered_item_link/>
         <picture/>
+        <post_insert_script/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=3ff4edb1dbcfd300d91118df4b961998&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
@@ -54,15 +54,15 @@
         <sys_created_on>2018-07-02 19:24:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3ff4edb1dbcfd300d91118df4b961998</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Supplier</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sc_cat_item_producer_3ff4edb1dbcfd300d91118df4b961998</sys_update_name>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-08-07 15:24:48</sys_updated_on>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-08-14 17:18:59</sys_updated_on>
         <table_name>x_tebc2_global_ind_global_indirect_procurement</table_name>
         <template/>
         <type>item</type>
@@ -122,6 +122,7 @@
         <image_width>50</image_width>
         <size_bytes>2045</size_bytes>
         <size_compressed>1892</size_compressed>
+        <state/>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-17 19:59:18</sys_created_on>
         <sys_id>93ec76aadb1b1340d7f6138b4b961960</sys_id>
@@ -159,6 +160,7 @@
         <image_width>150</image_width>
         <size_bytes>7911</size_bytes>
         <size_compressed>7733</size_compressed>
+        <state/>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-17 19:59:47</sys_created_on>
         <sys_id>e20d7aeadb1b1340d7f6138b4b961918</sys_id>

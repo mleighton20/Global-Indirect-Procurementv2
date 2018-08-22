@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="wf_workflow_version">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
         <activity_stages>{"subflows":["e84fe752c30031000096dfdc64d3aee4"],"stages":{"a55707e2db9f1340d91118df4b961927":{"order":400,"duration":"","stageId":"a55707e2db9f1340d91118df4b961927","name":"Pending retirement","value":"pending_retirement"}},"ends":["b95707e2db9f1340d91118df4b96192b"],"activities":{"715707e2db9f1340d91118df4b96192d":"a55707e2db9f1340d91118df4b961927"}}</activity_stages>

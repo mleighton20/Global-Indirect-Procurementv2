@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Contracts/Agreements/Statement Of Work">d3f36db1dbcfd300d91118df4b9619cc</sc_cat_item>
         <sc_category display_value="Contracts/Agreements/Statement Of Work">d1dd51bddb4fd300d91118df4b9619ad</sc_category>

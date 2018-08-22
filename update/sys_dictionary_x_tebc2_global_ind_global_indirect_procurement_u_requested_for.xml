@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_requested_for" table="x_tebc2_global_ind_global_indirect_procurement">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Requested for</column_label>
@@ -51,15 +50,15 @@
         <sys_created_on>2018-07-06 16:00:10</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bc1b361fdb6b1300d91118df4b96196a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Requested for</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sys_dictionary_x_tebc2_global_ind_global_indirect_procurement_u_requested_for</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-01 14:02:22</sys_updated_on>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-08-22 17:21:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

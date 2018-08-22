@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_producer">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <can_cancel>false</can_cancel>
+        <can_cancel>true</can_cancel>
         <category display_value="SAP purchasing assistance">1f6e91bddb8fd300d91118df4b9619b9</category>
         <cost>0</cost>
         <custom_cart/>
@@ -36,6 +35,7 @@
         <order>0</order>
         <ordered_item_link/>
         <picture/>
+        <post_insert_script/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=791dbeeadb1b1340d7f6138b4b96197a&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
@@ -54,7 +54,7 @@
         <sys_created_on>2018-07-17 20:00:00</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>791dbeeadb1b1340d7f6138b4b96197a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>SAP application help</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sc_cat_item_producer_791dbeeadb1b1340d7f6138b4b96197a</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-31 16:53:12</sys_updated_on>
+        <sys_updated_on>2018-08-13 19:46:46</sys_updated_on>
         <table_name>x_tebc2_global_ind_global_indirect_procurement</table_name>
         <template/>
         <type>item</type>
@@ -122,6 +122,7 @@
         <image_width>50</image_width>
         <size_bytes>3156</size_bytes>
         <size_compressed>3179</size_compressed>
+        <state/>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-17 20:01:34</sys_created_on>
         <sys_id>307d3e6edb1b1340d7f6138b4b9619f2</sys_id>
@@ -159,6 +160,7 @@
         <image_width>125</image_width>
         <size_bytes>13354</size_bytes>
         <size_compressed>13364</size_compressed>
+        <state/>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-17 20:01:13</sys_created_on>
         <sys_id>2f5d36eadb1b1340d7f6138b4b9619a5</sys_id>

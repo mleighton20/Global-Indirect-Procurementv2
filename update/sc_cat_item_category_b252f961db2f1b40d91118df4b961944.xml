@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Check status of a purchase request (without SAP Access)">ff41b921db2f1b40d91118df4b961915</sc_cat_item>
         <sc_category display_value="Check status of a purchase request ">db3e15bddb8fd300d91118df4b96197f</sc_category>

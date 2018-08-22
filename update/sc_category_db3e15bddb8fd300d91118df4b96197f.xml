@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
     <sc_category action="INSERT_OR_UPDATE">
         <active>true</active>
         <description/>
@@ -45,6 +44,7 @@
         <image_width>100</image_width>
         <size_bytes>8980</size_bytes>
         <size_compressed>8982</size_compressed>
+        <state/>
         <sys_created_by>mleighton</sys_created_by>
         <sys_created_on>2018-07-17 19:58:20</sys_created_on>
         <sys_id>d9bcbeeadb5f1340d91118df4b9619f7</sys_id>

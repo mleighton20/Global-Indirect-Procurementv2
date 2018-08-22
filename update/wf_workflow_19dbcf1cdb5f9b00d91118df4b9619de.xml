@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="wf_workflow_version">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
         <activity_stages>{"subflows":["02be08a4eb5221007128a5fc5206fe12"],"stages":{"cb264fa2db9f1340d91118df4b961915":{"order":200,"duration":"","stageId":"cb264fa2db9f1340d91118df4b961915","name":"Review","value":"review"},"4b264fa2db9f1340d91118df4b961915":{"order":100,"duration":"","stageId":"4b264fa2db9f1340d91118df4b961915","name":"Draft","value":"draft"}},"ends":["0b264fa2db9f1340d91118df4b961916"],"activities":{"03264fa2db9f1340d91118df4b961922":"4b264fa2db9f1340d91118df4b961915","8b264fa2db9f1340d91118df4b961917":"cb264fa2db9f1340d91118df4b961915","0b264fa2db9f1340d91118df4b96191d":"4b264fa2db9f1340d91118df4b961915"}}</activity_stages>

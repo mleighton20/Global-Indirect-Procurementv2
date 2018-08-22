@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="" label="Global Indirect Procurement" language="en" table="x_tebc2_global_ind_global_indirect_procurement">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>

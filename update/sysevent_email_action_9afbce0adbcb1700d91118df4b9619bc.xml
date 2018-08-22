@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>true</action_update>
         <active>true</active>
-        <advanced_condition><![CDATA[setFrom('Terumo BCT GIP Support <snowprod@terumobct.com>');]]></advanced_condition>
+        <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_tebc2_global_ind_global_indirect_procurement</collection>
@@ -32,7 +31,7 @@
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
-        <from/>
+        <from>Terumo BCT GIP Support &lt;snowprod@terumobct.com&gt;</from>
         <generation_type>engine</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
@@ -45,7 +44,7 @@
 <p style="margin: 0in 0in 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 12pt;">GIP Request #</span></strong><span style="font-size: 12pt;">: ${number}&nbsp;</span></span></p>
 <p style="margin: 0in 0in 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="font-size: 12pt;">Item</span></strong><span style="font-size: 12pt;">: ${u_item}</span></span></p>
 <p style="margin: 0in 0in 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
-<p style="margin: 0in 0in 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">${mail_script:gip_variable}</span></p>]]></message_html>
+<p style="margin: 0in 0in 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">${mail_script:rp_variable}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>GIP - Assignment Group (BCT)</name>
@@ -67,7 +66,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9afbce0adbcb1700d91118df4b9619bc</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>GIP - Assignment Group (BCT)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
@@ -76,7 +75,7 @@
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sysevent_email_action_9afbce0adbcb1700d91118df4b9619bc</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-08 22:14:08</sys_updated_on>
+        <sys_updated_on>2018-08-13 18:36:44</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

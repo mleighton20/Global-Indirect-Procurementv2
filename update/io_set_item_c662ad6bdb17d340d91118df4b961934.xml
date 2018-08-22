@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="io_set_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>7000</order>
         <sc_cat_item display_value="My Invoice has a PO number">6022e9abdb17d340d91118df4b9619c1</sc_cat_item>
@@ -17,6 +16,6 @@
         <sys_update_name>io_set_item_c662ad6bdb17d340d91118df4b961934</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
         <sys_updated_on>2018-07-20 15:57:50</sys_updated_on>
-        <variable_set display_value="Due Date">e9dbbc41db1b1f00d91118df4b96191e</variable_set>
+        <variable_set display_value="GIP Due Date">e9dbbc41db1b1f00d91118df4b96191e</variable_set>
     </io_set_item>
 </record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysrule_escalate_am">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_escalate_am">
     <sysrule_escalate_am action="INSERT_OR_UPDATE">
         <advanced_condition/>
         <assignment_script/>
