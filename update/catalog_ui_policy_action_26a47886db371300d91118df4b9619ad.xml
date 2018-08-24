@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Supplier">3ff4edb1dbcfd300d91118df4b961998</catalog_item>
+        <catalog_item display_value="Supplier Add, Change or Reassess">3ff4edb1dbcfd300d91118df4b961998</catalog_item>
         <catalog_variable>IO:fa2c60cedb775700b2e6f20ebf96195f</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>
