@@ -23,14 +23,14 @@
         <sys_created_by>mleighton</sys_created_by>
         <sys_created_on>2018-07-02 16:21:14</sys_created_on>
         <sys_id>be2b70b1db0fd300d7f6138b4b96190c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-22 22:14:50</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2018-08-24 22:05:38</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_tebc2_global_ind.user" name="x_tebc2_global_ind.user">fe2bb8b1db0fd300d7f6138b4b9619b5</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </sys_app>
 </record_update>
