@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Supplier Add, Change or Reassess">3ff4edb1dbcfd300d91118df4b961998</sc_cat_item>
+        <sc_cat_item display_value="Supplier Add">3ff4edb1dbcfd300d91118df4b961998</sc_cat_item>
         <sc_category display_value="Supplier">443e117ddb8fd300d91118df4b96194c</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>ttaylor</sys_created_by>

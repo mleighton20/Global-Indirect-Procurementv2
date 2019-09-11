@@ -75,6 +75,7 @@
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set display_value="CoCd &amp; Additional">b7c9317adb486300d7f6138b4b9619b7</variable_set>
         <variable_width/>

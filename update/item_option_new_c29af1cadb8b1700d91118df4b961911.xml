@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Expense Report assistance">b44321b1dbcfd300d91118df4b961975</cat_item>
+        <cat_item display_value="Expense Report Assistance">b44321b1dbcfd300d91118df4b961975</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -20,8 +20,8 @@
         <example_text/>
         <field/>
         <global>false</global>
-        <help_tag/>
-        <help_text/>
+        <help_tag>More information</help_tag>
+        <help_text>Please attach existing documentation if applicable</help_text>
         <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -32,7 +32,7 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -40,7 +40,7 @@
         <order>600</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Type of Card (Please attach existing documentation (i.e. screenshots) if applicable)</question_text>
+        <question_text>Type of Card</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,21 +60,22 @@
         <sys_created_on>2018-07-03 15:38:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c29af1cadb8b1700d91118df4b961911</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>Type of Card (Please attach existing documentation (i.e. screenshots) if applicable)</sys_name>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Type of Card</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>item_option_new_c29af1cadb8b1700d91118df4b961911</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-23 21:27:23</sys_updated_on>
+        <sys_updated_on>2018-09-11 19:35:20</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set/>
         <variable_width/>

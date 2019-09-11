@@ -2,7 +2,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>200</order>
-        <question display_value="Type (Please attach existing documentation if applicable)">fa85e136db8b9700d91118df4b961985</question>
+        <question display_value="Type">fa85e136db8b9700d91118df4b961985</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>mleighton</sys_created_by>

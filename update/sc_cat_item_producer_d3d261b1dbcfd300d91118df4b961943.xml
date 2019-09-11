@@ -12,6 +12,7 @@
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <entitlement_script/>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -19,18 +20,24 @@
         <image/>
         <list_price>0</list_price>
         <location/>
+        <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Reset my password</name>
+        <name>Reset my Password</name>
+        <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -41,12 +48,18 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <redirect_url>generated_record</redirect_url>
+        <request_method/>
         <roles/>
         <sc_catalogs>746a1df5db4fd300d7f6138b4b9619ce</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[current.u_item = "d3d261b1dbcfd300d91118df4b961943";]]></script>
-        <short_description>Reset my password</short_description>
+        <script><![CDATA[if(producer.critical == "Yes"){
+	current.u_priority = "1 - Critical";
+	
+}
+
+current.u_item = "d3d261b1dbcfd300d91118df4b961943";]]></script>
+        <short_description>Reset my Password</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
@@ -54,15 +67,15 @@
         <sys_created_on>2018-07-02 19:16:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d3d261b1dbcfd300d91118df4b961943</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Reset my password</sys_name>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Reset my Password</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sc_cat_item_producer_d3d261b1dbcfd300d91118df4b961943</sys_update_name>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-13 19:46:46</sys_updated_on>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2019-03-20 21:55:55</sys_updated_on>
         <table_name>x_tebc2_global_ind_global_indirect_procurement</table_name>
         <template/>
         <type>item</type>
@@ -122,29 +135,48 @@
         <image_width>50</image_width>
         <size_bytes>1810</size_bytes>
         <size_compressed>1652</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-30 15:52:15</sys_created_on>
         <sys_id>5f0149fedbafdb40d91118df4b9619cc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-07-30 15:52:15</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-05-22 15:32:15</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>d3d261b1dbcfd300d91118df4b961943</table_sys_id>
     </sys_attachment>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
-        <data>H4sIAAAAAAAAAA==</data>
-        <length>16</length>
+        <data>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</data>
+        <length>2208</length>
         <position>0</position>
-        <sys_attachment display_value="icon" sys_id="5f0149fedbafdb40d91118df4b9619cc">5f0149fedbafdb40d91118df4b9619cc</sys_attachment>
-        <sys_created_by>ttaylor</sys_created_by>
-        <sys_created_on>2018-07-30 15:52:15</sys_created_on>
-        <sys_id>9f0149fedbafdb40d91118df4b9619cc</sys_id>
-    </sys_attachment_doc>
-    <sys_attachment_doc action="INSERT_OR_UPDATE">
-        <data>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</data>
-        <length>2192</length>
-        <position>1</position>
         <sys_attachment display_value="icon" sys_id="5f0149fedbafdb40d91118df4b9619cc">5f0149fedbafdb40d91118df4b9619cc</sys_attachment>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-30 15:52:15</sys_created_on>
@@ -160,13 +192,13 @@
         <image_width>150</image_width>
         <size_bytes>5837</size_bytes>
         <size_compressed>5280</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-30 15:52:34</sys_created_on>
         <sys_id>331189fedbafdb40d91118df4b96197d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-07-30 15:52:34</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-22 19:44:04</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>d3d261b1dbcfd300d91118df4b961943</table_sys_id>
     </sys_attachment>

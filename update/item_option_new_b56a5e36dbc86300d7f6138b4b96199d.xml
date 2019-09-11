@@ -40,7 +40,7 @@
         <order>200</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Additional Cost Center</question_text>
+        <question_text>Check here if this is for multiple Cost Centers</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,21 +60,22 @@
         <sys_created_on>2018-08-24 18:55:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b56a5e36dbc86300d7f6138b4b96199d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Additional Cost Center</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Check here if this is for multiple Cost Centers</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>item_option_new_b56a5e36dbc86300d7f6138b4b96199d</sys_update_name>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-08-24 20:31:11</sys_updated_on>
+        <sys_updated_by>mleighton</sys_updated_by>
+        <sys_updated_on>2018-09-06 19:06:08</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>7</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set display_value="CC &amp; Additional">0f99f5f6db486300d7f6138b4b9619e8</variable_set>
         <variable_width/>

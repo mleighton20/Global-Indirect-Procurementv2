@@ -4,7 +4,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>true</can_cancel>
-        <category display_value="Assistance with a new purchase (and I don't know where to go)">fb4edd7ddb8fd300d91118df4b9619f2</category>
+        <category display_value="New Purchase (Don't Know Where to Go)">fb4edd7ddb8fd300d91118df4b9619f2</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -12,6 +12,7 @@
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <entitlement_script/>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -19,18 +20,24 @@
         <image/>
         <list_price>0</list_price>
         <location/>
+        <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Assistance with a new purchase (and I don't know where to go)</name>
+        <name>New Purchase (Don't Know Where to Go)</name>
+        <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -41,13 +48,19 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <redirect_url>generated_record</redirect_url>
+        <request_method/>
         <roles/>
         <sc_catalogs>746a1df5db4fd300d7f6138b4b9619ce</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[current.u_item = "4e1521f2db8b9700d91118df4b9619d1";
+        <script><![CDATA[if(producer.critical == "Yes"){
+	current.u_priority = "1 - Critical";
+	
+}
+
+current.u_item = "4e1521f2db8b9700d91118df4b9619d1";
 ]]></script>
-        <short_description>Assistance with a new purchase (and I don't know where to go)</short_description>
+        <short_description>New Purchase (Don't Know Where to Go)</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
@@ -55,15 +68,15 @@
         <sys_created_on>2018-07-05 21:58:20</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4e1521f2db8b9700d91118df4b9619d1</sys_id>
-        <sys_mod_count>25</sys_mod_count>
-        <sys_name>Assistance with a new purchase (and I don't know where to go)</sys_name>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>New Purchase (Don't Know Where to Go)</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sc_cat_item_producer_4e1521f2db8b9700d91118df4b9619d1</sys_update_name>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-13 19:46:45</sys_updated_on>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2019-03-20 21:54:15</sys_updated_on>
         <table_name>x_tebc2_global_ind_global_indirect_procurement</table_name>
         <template/>
         <type>item</type>
@@ -123,29 +136,56 @@
         <image_width>50</image_width>
         <size_bytes>2252</size_bytes>
         <size_compressed>2059</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>mleighton</sys_created_by>
         <sys_created_on>2018-07-17 18:40:26</sys_created_on>
         <sys_id>40ea2eeedb1f1340d91118df4b961965</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-17 18:40:26</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-17 15:38:15</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>4e1521f2db8b9700d91118df4b9619d1</table_sys_id>
     </sys_attachment>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
-        <data>H4sIAAAAAAAAAA==</data>
-        <length>16</length>
+        <data>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
+VGwCzAgAAA==</data>
+        <length>2748</length>
         <position>0</position>
-        <sys_attachment display_value="icon" sys_id="40ea2eeedb1f1340d91118df4b961965">40ea2eeedb1f1340d91118df4b961965</sys_attachment>
-        <sys_created_by>mleighton</sys_created_by>
-        <sys_created_on>2018-07-17 18:40:26</sys_created_on>
-        <sys_id>80ea2eeedb1f1340d91118df4b961965</sys_id>
-    </sys_attachment_doc>
-    <sys_attachment_doc action="INSERT_OR_UPDATE">
-        <data>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</data>
-        <length>2732</length>
-        <position>1</position>
         <sys_attachment display_value="icon" sys_id="40ea2eeedb1f1340d91118df4b961965">40ea2eeedb1f1340d91118df4b961965</sys_attachment>
         <sys_created_by>mleighton</sys_created_by>
         <sys_created_on>2018-07-17 18:40:26</sys_created_on>
@@ -161,13 +201,13 @@
         <image_width>125</image_width>
         <size_bytes>5913</size_bytes>
         <size_compressed>5240</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>mleighton</sys_created_by>
         <sys_created_on>2018-07-17 18:41:02</sys_created_on>
         <sys_id>bc0beeeedb1f1340d91118df4b961993</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-17 18:41:02</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-22 19:44:04</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>4e1521f2db8b9700d91118df4b9619d1</table_sys_id>
     </sys_attachment>

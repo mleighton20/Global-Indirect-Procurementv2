@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Reset my password">d3d261b1dbcfd300d91118df4b961943</cat_item>
+        <cat_item display_value="Reset my Password">d3d261b1dbcfd300d91118df4b961943</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -32,7 +32,7 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -60,7 +60,7 @@
         <sys_created_on>2018-07-03 14:58:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0fa13d46db8b1700d91118df4b961978</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>System</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
@@ -68,13 +68,14 @@
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>item_option_new_0fa13d46db8b1700d91118df4b961978</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-23 21:30:22</sys_updated_on>
+        <sys_updated_on>2018-09-07 16:23:56</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set/>
         <variable_width/>

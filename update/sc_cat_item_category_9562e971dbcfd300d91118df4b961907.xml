@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Request a temporary change to my card">98e12131dbcfd300d91118df4b961958</sc_cat_item>
+        <sc_cat_item display_value="Request a Temporary Change to my Card">98e12131dbcfd300d91118df4b961958</sc_cat_item>
         <sc_category display_value="Corporate Cards/Concur">6acc157ddb8fd300d91118df4b9619ad</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>ttaylor</sys_created_by>

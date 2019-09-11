@@ -12,6 +12,7 @@
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <entitlement_script/>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -19,18 +20,24 @@
         <image/>
         <list_price>0</list_price>
         <location/>
+        <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>Assistance with an Invoice</name>
+        <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -41,11 +48,15 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <redirect_url>generated_record</redirect_url>
+        <request_method/>
         <roles/>
         <sc_catalogs>746a1df5db4fd300d7f6138b4b9619ce</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[current.state = "3";
+        <script><![CDATA[if(producer.invoice_have_po_number == "Yes"){
+   current.state = 3;
+	current.close_code = 9;
+}
 current.u_item = "6022e9abdb17d340d91118df4b9619c1";]]></script>
         <short_description>Assistance with an Invoice</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
@@ -55,15 +66,15 @@ current.u_item = "6022e9abdb17d340d91118df4b9619c1";]]></script>
         <sys_created_on>2018-07-20 15:57:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6022e9abdb17d340d91118df4b9619c1</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Assistance with an Invoice</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sc_cat_item_producer_6022e9abdb17d340d91118df4b9619c1</sys_update_name>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-23 21:03:09</sys_updated_on>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2018-11-13 17:27:04</sys_updated_on>
         <table_name>x_tebc2_global_ind_global_indirect_procurement</table_name>
         <template/>
         <type>item</type>
@@ -123,13 +134,13 @@ current.u_item = "6022e9abdb17d340d91118df4b9619c1";]]></script>
         <image_width>50</image_width>
         <size_bytes>6729</size_bytes>
         <size_compressed>6707</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>mleighton</sys_created_by>
         <sys_created_on>2018-07-31 18:58:50</sys_created_on>
         <sys_id>92553283dbab1f40d7f6138b4b9619f2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-31 18:58:50</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-17 15:36:17</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>6022e9abdb17d340d91118df4b9619c1</table_sys_id>
     </sys_attachment>
@@ -161,13 +172,13 @@ current.u_item = "6022e9abdb17d340d91118df4b9619c1";]]></script>
         <image_width>125</image_width>
         <size_bytes>47508</size_bytes>
         <size_compressed>46972</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>mleighton</sys_created_by>
         <sys_created_on>2018-07-31 18:59:43</sys_created_on>
         <sys_id>0f857e83dbab1f40d7f6138b4b961934</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-31 18:59:43</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-22 19:44:04</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>6022e9abdb17d340d91118df4b9619c1</table_sys_id>
     </sys_attachment>

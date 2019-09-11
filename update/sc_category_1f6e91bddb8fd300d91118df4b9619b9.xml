@@ -23,16 +23,16 @@
         <sys_created_on>2018-07-02 18:55:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1f6e91bddb8fd300d91118df4b9619b9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>SAP purchasing assistance</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SAP Purchasing Assistance</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sc_category_1f6e91bddb8fd300d91118df4b9619b9</sys_update_name>
         <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-31 16:56:39</sys_updated_on>
-        <title>SAP purchasing assistance</title>
+        <sys_updated_on>2018-09-11 19:40:51</sys_updated_on>
+        <title>SAP Purchasing Assistance</title>
     </sc_category>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#568f</average_image_color>
@@ -44,13 +44,13 @@
         <image_width>100</image_width>
         <size_bytes>7619</size_bytes>
         <size_compressed>7638</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-17 19:56:34</sys_created_on>
         <sys_id>2f4c72eadb1b1340d7f6138b4b961941</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-07-17 19:56:35</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-16 19:17:13</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>1f6e91bddb8fd300d91118df4b9619b9</table_sys_id>
     </sys_attachment>

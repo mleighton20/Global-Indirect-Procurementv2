@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Check status of a purchase request (without SAP Access)">ff41b921db2f1b40d91118df4b961915</sc_cat_item>
+        <sc_cat_item display_value="Check Status of a Purchase Request (without SAP Access)">ff41b921db2f1b40d91118df4b961915</sc_cat_item>
         <sc_catalog display_value="Global Indirect Procurement">746a1df5db4fd300d7f6138b4b9619ce</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>ttaylor</sys_created_by>

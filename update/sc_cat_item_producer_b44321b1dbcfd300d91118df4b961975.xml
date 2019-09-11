@@ -12,6 +12,7 @@
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <entitlement_script/>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -19,18 +20,24 @@
         <image/>
         <list_price>0</list_price>
         <location/>
+        <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Expense Report assistance</name>
+        <name>Expense Report Assistance</name>
+        <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -41,12 +48,18 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <redirect_url>generated_record</redirect_url>
+        <request_method/>
         <roles/>
         <sc_catalogs>746a1df5db4fd300d7f6138b4b9619ce</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[current.u_item = "b44321b1dbcfd300d91118df4b961975";]]></script>
-        <short_description>Expense Report assistance</short_description>
+        <script><![CDATA[if(producer.critical == "Yes"){
+	current.u_priority = "1 - Critical";
+	
+}
+
+current.u_item = "b44321b1dbcfd300d91118df4b961975";]]></script>
+        <short_description>Expense Report Assistance</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
@@ -54,15 +67,15 @@
         <sys_created_on>2018-07-02 19:17:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b44321b1dbcfd300d91118df4b961975</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Expense Report assistance</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Expense Report Assistance</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sc_cat_item_producer_b44321b1dbcfd300d91118df4b961975</sys_update_name>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-13 19:46:46</sys_updated_on>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2019-03-20 21:53:27</sys_updated_on>
         <table_name>x_tebc2_global_ind_global_indirect_procurement</table_name>
         <template/>
         <type>item</type>
@@ -122,13 +135,13 @@
         <image_width>50</image_width>
         <size_bytes>5374</size_bytes>
         <size_compressed>5397</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-31 21:52:15</sys_created_on>
         <sys_id>5a0d534fdb635f40d91118df4b9619d0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-07-31 21:52:15</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-05-22 15:32:15</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>b44321b1dbcfd300d91118df4b961975</table_sys_id>
     </sys_attachment>
@@ -160,13 +173,13 @@
         <image_width>125</image_width>
         <size_bytes>25183</size_bytes>
         <size_compressed>25206</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-31 21:52:38</sys_created_on>
         <sys_id>882d574fdb635f40d91118df4b9619d2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-07-31 21:52:38</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-22 19:44:04</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>b44321b1dbcfd300d91118df4b961975</table_sys_id>
     </sys_attachment>

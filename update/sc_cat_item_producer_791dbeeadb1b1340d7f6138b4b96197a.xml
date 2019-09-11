@@ -4,7 +4,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>true</can_cancel>
-        <category display_value="SAP purchasing assistance">1f6e91bddb8fd300d91118df4b9619b9</category>
+        <category display_value="SAP Purchasing Assistance">1f6e91bddb8fd300d91118df4b9619b9</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -12,6 +12,7 @@
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <entitlement_script/>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -19,18 +20,24 @@
         <image/>
         <list_price>0</list_price>
         <location/>
+        <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>SAP User Assistance</name>
+        <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -41,12 +48,18 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <redirect_url>generated_record</redirect_url>
+        <request_method/>
         <roles/>
         <sc_catalogs>746a1df5db4fd300d7f6138b4b9619ce</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[current.u_item = "791dbeeadb1b1340d7f6138b4b96197a";]]></script>
-        <short_description>SAP application help</short_description>
+        <script><![CDATA[if(producer.critical == "Yes"){
+	current.u_priority = "1 - Critical";
+	
+}
+
+current.u_item = "791dbeeadb1b1340d7f6138b4b96197a";]]></script>
+        <short_description>SAP User Assistance</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
@@ -54,7 +67,7 @@
         <sys_created_on>2018-07-17 20:00:00</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>791dbeeadb1b1340d7f6138b4b96197a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>SAP User Assistance</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
@@ -62,7 +75,7 @@
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sc_cat_item_producer_791dbeeadb1b1340d7f6138b4b96197a</sys_update_name>
         <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-08-23 20:39:48</sys_updated_on>
+        <sys_updated_on>2019-03-20 21:56:20</sys_updated_on>
         <table_name>x_tebc2_global_ind_global_indirect_procurement</table_name>
         <template/>
         <type>item</type>
@@ -122,13 +135,13 @@
         <image_width>50</image_width>
         <size_bytes>3156</size_bytes>
         <size_compressed>3179</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-17 20:01:34</sys_created_on>
         <sys_id>307d3e6edb1b1340d7f6138b4b9619f2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-07-17 20:01:34</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-22 19:02:22</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>791dbeeadb1b1340d7f6138b4b96197a</table_sys_id>
     </sys_attachment>
@@ -160,13 +173,13 @@
         <image_width>125</image_width>
         <size_bytes>13354</size_bytes>
         <size_compressed>13364</size_compressed>
-        <state/>
+        <state>available</state>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-17 20:01:13</sys_created_on>
         <sys_id>2f5d36eadb1b1340d7f6138b4b9619a5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>ttaylor</sys_updated_by>
-        <sys_updated_on>2018-07-17 20:01:13</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-04-22 19:44:04</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item_producer</table_name>
         <table_sys_id>791dbeeadb1b1340d7f6138b4b96197a</table_sys_id>
     </sys_attachment>

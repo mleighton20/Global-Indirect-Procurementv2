@@ -58,7 +58,7 @@
         <recipient_fields/>
         <recipient_groups name="GIP KB Approval">85893ee8db5b5f006bb3ce6139961998</recipient_groups>
         <recipient_users/>
-        <reply_to/>
+        <reply_to>Terumo BCT GIP Support &lt;snowprod@terumobct.com&gt;</reply_to>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
@@ -70,7 +70,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>e2f6a430db5bdb00d7f6138b4b9619f6</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>GIP - Knowledge Publish Review (BCT)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
@@ -78,8 +78,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>sysevent_email_action_e2f6a430db5bdb00d7f6138b4b9619f6</sys_update_name>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-08-13 18:39:59</sys_updated_on>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2018-10-11 20:07:37</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

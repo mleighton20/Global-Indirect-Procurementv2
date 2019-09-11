@@ -2,7 +2,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order/>
-        <question display_value="Type of Engagement (Please attach existing documentation if applicable)">7f8d314edb8b1700d91118df4b961921</question>
+        <question display_value="Type of Engagement">7f8d314edb8b1700d91118df4b961921</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>mleighton</sys_created_by>

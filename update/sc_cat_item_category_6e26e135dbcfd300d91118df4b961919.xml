@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Transaction help">32f56171dbcfd300d91118df4b9619aa</sc_cat_item>
-        <sc_category display_value="SAP purchasing assistance">1f6e91bddb8fd300d91118df4b9619b9</sc_category>
+        <sc_cat_item display_value="Transaction Help">32f56171dbcfd300d91118df4b9619aa</sc_cat_item>
+        <sc_category display_value="SAP Purchasing Assistance">1f6e91bddb8fd300d91118df4b9619b9</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>ttaylor</sys_created_by>
         <sys_created_on>2018-07-02 19:29:05</sys_created_on>

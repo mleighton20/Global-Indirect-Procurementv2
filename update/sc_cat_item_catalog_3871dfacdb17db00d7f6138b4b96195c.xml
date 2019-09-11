@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Reset my password">d3d261b1dbcfd300d91118df4b961943</sc_cat_item>
+        <sc_cat_item display_value="Reset my Password">d3d261b1dbcfd300d91118df4b961943</sc_cat_item>
         <sc_catalog display_value="Global Indirect Procurement">746a1df5db4fd300d7f6138b4b9619ce</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>mleighton</sys_created_by>

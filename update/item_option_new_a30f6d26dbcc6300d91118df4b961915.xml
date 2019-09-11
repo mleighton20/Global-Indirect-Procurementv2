@@ -75,6 +75,7 @@
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set display_value="CC &amp; Additional - mandatory">f39eed26dbcc6300d91118df4b96198a</variable_set>
         <variable_width/>

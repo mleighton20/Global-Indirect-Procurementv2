@@ -2,14 +2,14 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Assistance with a new purchase (and I don't know where to go)">4e1521f2db8b9700d91118df4b9619d1</cat_item>
+        <cat_item display_value="New Purchase (Don't Know Where to Go)">4e1521f2db8b9700d91118df4b9619d1</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>   </default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -21,7 +21,7 @@
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text/>
+        <help_text>Please attach existing documentation if applicable</help_text>
         <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -40,7 +40,7 @@
         <order>700</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Type (Please attach existing documentation if applicable)</question_text>
+        <question_text>Type</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -51,7 +51,7 @@
         <reference_qual_condition/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
+        <show_help>true</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
@@ -60,21 +60,22 @@
         <sys_created_on>2018-07-05 22:01:01</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fa85e136db8b9700d91118df4b961985</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Type (Please attach existing documentation if applicable)</sys_name>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Type</sys_name>
         <sys_package display_value="Global Indirect Procurement" source="x_tebc2_global_ind">be2b70b1db0fd300d7f6138b4b96190c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Global Indirect Procurement">be2b70b1db0fd300d7f6138b4b96190c</sys_scope>
         <sys_update_name>item_option_new_fa85e136db8b9700d91118df4b961985</sys_update_name>
-        <sys_updated_by>mleighton</sys_updated_by>
-        <sys_updated_on>2018-07-23 17:02:37</sys_updated_on>
+        <sys_updated_by>ttaylor</sys_updated_by>
+        <sys_updated_on>2018-10-10 14:52:41</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set/>
         <variable_width/>
